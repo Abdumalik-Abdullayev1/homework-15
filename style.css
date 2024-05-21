@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(32, 46, 61, 1);
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    padding: 30px 200px;
+    font-family: sans-serif;
+}
+.logo{
+    width: 200px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav a{
+    color: #fff;
+}
+.nav-lists{
+    display: flex;
+    justify-content: space-between;
+}
+.language{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 5px;
+    position: relative;
+    left: 90px;
+}
+.language img{
+    border-radius: 50%;
+}
+nav button{
+    width: 100px;
+    height: 40px;
+    border-radius: 6px;
+    border: 1.5px solid rgba(255, 155, 82, 1);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 150px;
+    cursor: pointer;
+}
+
+.company-type{
+    display: flex;
+    gap: 10px;
+    padding-top: 30px;
+}
+.company-type a{
+    color: rgba(138, 183, 198, 1);
+}
+.company-type span{
+    color: rgba(70, 219, 191, 1);
+}
+.wrapper{
+    display: flex;
+    gap: 20px;
+}
+section h1{
+    color: #fff;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.choosing-company-type{
+    width: 330px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    background-color: rgba(42, 60, 78, 1);
+    position: relative;
+    top: 25px;
+}
+.choosing-company-type img, h3{
+    background-color: rgba(42, 60, 78, 1);
+    color: #fff;
+    position: sticky;
+    top: 0;
+}
+.choosing-company-type:nth-child(1){
+    height: 270px;
+}
+.wrapper button{
+    width: 210px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgba(70, 219, 191, 1);
+    border: none;
+    font-size: 20px;
+}
+
+.head-enveloping{
+    display: flex;
+    padding-top: 30px;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+.enveloping{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.trucking-companies{
+    width: 600px;
+    height: 230px;
+    background-color: rgba(42, 60, 78, 1);
+    border-radius: 10px;
+}
+.trucking-companies h2{
+    padding: 20px;
+    border-radius: 10px;
+    color: rgba(70, 219, 191, 1);
+    background-color: rgba(42, 60, 78, 1);
+}
+.trucking-companies p{
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(42, 60, 78, 1);
+}
+.trucking-companies:nth-child(2){
+    width: 600px;
+    height: 150px;
+    background-color: rgba(42, 60, 78, 1);
+    border-radius: 10px;
+}
+.right-enveloping{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.right-trucking-companies{
+    width: 600px;
+    height: 260px;
+    background-color: rgba(42, 60, 78, 1);
+    border-radius: 10px;
+}
+.right-trucking-companies h2{
+    padding: 20px;
+    border-radius: 10px;
+    color: rgba(70, 219, 191, 1);
+    background-color: rgba(42, 60, 78, 1);
+}
+.right-trucking-companies p{
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgba(42, 60, 78, 1);
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 35px;
+}
+.social-networks{
+    width: 800px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.header h2{
+    width: 400px;
+    height: 45px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.about-company{
+    display: flex;
+    gap: 120px;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-company p{
+    color: rgba(95, 120, 151, 1);
+}
+.about-company li{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.about-company a{
+    color: #fff;
+}
+.join-tla{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 155, 82, 1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: #fff; 
+}
