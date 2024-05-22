@@ -90,8 +90,6 @@ section h1{
 .choosing-company-type img, h3{
     background-color: rgba(42, 60, 78, 1);
     color: #fff;
-    position: sticky;
-    top: 0;
 }
 .choosing-company-type:nth-child(1){
     height: 270px;
@@ -103,6 +101,7 @@ section h1{
     background-color: rgba(70, 219, 191, 1);
     border: none;
     font-size: 20px;
+    cursor: pointer;
 }
 
 .head-enveloping{
